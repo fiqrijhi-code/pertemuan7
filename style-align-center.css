@@ -1,0 +1,50 @@
+body {
+            font-family: sans-serif;
+            padding: 20px;
+            background: #f4f6f8;
+        }
+
+        h3 {
+            margin-top: 24px;
+            margin-bottom: 8px;
+        }
+
+        .container {
+            display: flex;
+            gap: 12px;
+            background: #e2e8f0;
+            padding: 12px;
+            border-radius: 8px;
+            min-height: 140px;
+            /* Tinggi container agar perataan vertikal terlihat jelas */
+        }
+
+        .item {
+            background: #4f46e5;
+            color: white;
+            padding: 12px 18px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .tall {
+            padding-top: 28px;
+            padding-bottom: 28px;
+        }
+
+        /* Variasi align-items */
+        .stretch {
+            align-items: stretch;
+        }
+
+        .center {
+            align-items: center;
+        }
+
+        .start {
+            align-items: flex-start;
+        }
+
+        .end {
+            align-items: flex-end;
+        }

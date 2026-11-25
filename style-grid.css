@@ -1,0 +1,35 @@
+  body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f4f6f8;
+  margin: 0;
+  }
+
+  h2 {
+  margin-bottom: 16px;
+  }
+
+  /* Grid otomatis menyesuaikan lebar layar */
+  .grid-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  }
+
+  .card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  .card h3 {
+  margin-top: 0;
+  color: #1e293b;
+  }
+
+  .card p {
+  margin-bottom: 0;
+  color: #475569;
+  line-height: 1.5;
+  }

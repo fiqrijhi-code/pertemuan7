@@ -1,0 +1,47 @@
+  body {
+            font-family: sans-serif;
+            padding: 20px;
+            background: #f4f6f8;
+        }
+
+        h3 {
+            margin-top: 24px;
+            margin-bottom: 8px;
+        }
+
+        /* Container dasar Flexbox */
+        .container {
+            display: flex;
+            gap: 10px;
+            background: #e2e8f0;
+            padding: 12px;
+            border-radius: 8px;
+        }
+
+        .item {
+            background: #2563eb;
+            color: white;
+            padding: 16px 24px;
+            border-radius: 6px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* Variasi flex-direction */
+        .row {
+            flex-direction: row;
+        }
+
+        .row-reverse {
+            flex-direction: row-reverse;
+        }
+
+        .column {
+            flex-direction: column;
+            max-width: 240px;
+        }
+
+        .column-reverse {
+            flex-direction: column-reverse;
+            max-width: 240px;
+        }

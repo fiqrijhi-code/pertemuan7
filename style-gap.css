@@ -1,0 +1,42 @@
+ body {
+ font-family: sans-serif;
+ padding: 20px;
+ background: #f4f6f8;
+ }
+
+ h3 {
+ margin-top: 24px;
+ margin-bottom: 8px;
+ }
+
+ .container {
+ display: flex;
+ flex-wrap: wrap;
+ background: #e2e8f0;
+ padding: 12px;
+ border-radius: 8px;
+ }
+
+ .item {
+ background: #d97706;
+ color: white;
+ padding: 12px 20px;
+ border-radius: 6px;
+ font-weight: bold;
+ }
+
+ /* Variasi gap */
+ .gap-rem {
+ gap: 1rem;
+ /* Relatif terhadap font-size html (umumnya 16px) */
+ }
+
+ .gap-16 {
+ gap: 16px;
+ /* Jarak tetap 16px */
+ }
+
+ .gap-24 {
+ gap: 24px;
+ /* Jarak tetap 24px */
+ }

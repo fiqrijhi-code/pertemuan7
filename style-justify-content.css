@@ -1,0 +1,41 @@
+
+        .container {
+            display: flex;
+            background: #e2e8f0;
+            padding: 12px;
+            border-radius: 8px;
+            min-height: 70px;
+        }
+
+        .item {
+            background: #0d9488;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        /* Variasi justify-content */
+        .start {
+            justify-content: flex-start;
+        }
+
+        .end {
+            justify-content: flex-end;
+        }
+
+        .center {
+            justify-content: center;
+        }
+
+        .between {
+            justify-content: space-between;
+        }
+
+        .around {
+            justify-content: space-around;
+        }
+
+        .evenly {
+            justify-content: space-evenly;
+        }
